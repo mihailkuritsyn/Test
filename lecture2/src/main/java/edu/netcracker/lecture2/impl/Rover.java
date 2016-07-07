@@ -20,7 +20,7 @@ public class Rover implements Moveable, Turnable {
 
         Rover r = new Rover();
         r.getVisor().setGround(new Ground(10, 10));
-        r.moveTo(5, 9);
+        r.moveTo(9, 9);
         r.moveTo(19, 9);
 
         System.out.println("End");
